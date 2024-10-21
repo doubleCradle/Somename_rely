@@ -110,37 +110,3 @@ class MainFrame(tk.Frame):
         self.toolpanel.configure(width=self.swidth)
         #self.sbutton.configure(width=self.swidth)
         self.button.place(x=4,y=4)
-
-
-
-    # def open_tool(self, tog=[0]):
-
-    #     print("Click!")
-
-    #     tog[0] = not tog[0]
-
-    #     if tog[0]:
-    #         #self.toolpanel = ToolPanel(self, 100, self.h)
-    #         #self.toolpanel.pack(side=tk.LEFT)
-    #         # button = tk.Button(self.toolpanel, width= 30, fg='#303030', bg='#202020', highlightbackground='#303030', highlightthickness=0, command=self.fold_window)
-    #         # button.pack(side=tk.TOP)
-    #         self.swidth = 150
-    #         print("Side open")
-    #         self.button.configure(relief=SUNKEN, image=self.rarrowimage)
-    #         self.toolpanel.configure(width=self.swidth)
-    #         print(self.swidth)
-    #         self.sbutton.configure(width=self.swidth)
-    #         self.button.place(x=self.swidth,y=4)
-    #         self.button.configure(command=self.open_tool)
-            
-
-    #     else:
-
-    #         self.swidth = 0
-
-    #         print("side closed")
-    #         self.button.configure(relief=RAISED,image=self.arrowimage)
-    #         self.toolpanel.configure(width=self.swidth)
-    #         self.sbutton.configure(width=self.swidth)
-    #         self.button.place(x=4,y=4)
-    #         #self.button.configure(command=self.open_tool)
